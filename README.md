@@ -1,13 +1,16 @@
-# myCobot280_Project
-MyCobot280 Jetson nano Control System 
+# MyCobot280 Project
 
-This repository contains a Python application for controlling the MyCobot280 robotic arm using a user-friendly graphical interface.
-The application allows users to teach the robot specific paths by recording Cartesian coordinates and saving them for future playback.
-Users can choose between different movement modes, including joint and linear movements, to explore the differences in trajectories.
+## MyCobot280 Jetson Nano Control System
 
-Features:
+This repository contains three educational exercises for the Robotics 1 course at the National Technical University of Athens.
 
-* Record and save robot arm poses
-* Playback saved poses with selected movement modes
-* User-friendly GUI built with Tkinter
-* Future enhancements may include inverse kinematics capabilities to allow direct Cartesian control.
+### Exercises Overview
+
+1. **First Part - Pick and Place**
+   - **Purpose**: Move a cube from a known position to another known position.
+
+2. **Second Part - Verification of Forward Kinematics**
+   - **Purpose**: Send motion commands to the robot and verify forward kinematics using the Denavit-Hartenberg method.
+
+3. **Third Part - Kinesthetic Teaching**
+   - **Purpose**: Recreate the first task without prior knowledge of the positions, using the kinesthetic teaching method.
